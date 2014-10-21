@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B9EF49219F648EF00D745EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF49119F648EF00D745EB /* AppDelegate.m */; };
+		6B9EF49419F648EF00D745EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF49319F648EF00D745EB /* main.m */; };
+		6B9EF49719F648EF00D745EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF49619F648EF00D745EB /* ViewController.m */; };
+		6B9EF49919F648EF00D745EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9EF49819F648EF00D745EB /* Images.xcassets */; };
+		6B9EF49C19F648EF00D745EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9EF49A19F648EF00D745EB /* Main.storyboard */; };
+		6B9EF4A819F648EF00D745EB /* ImageReducerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF4A719F648EF00D745EB /* ImageReducerTests.m */; };
+		6B9EF4B319F6495D00D745EB /* PNGDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF4B219F6495D00D745EB /* PNGDropView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B9EF4A219F648EF00D745EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B9EF48319F648EE00D745EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B9EF48A19F648EE00D745EB;
+			remoteInfo = ImageReducer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B9EF48B19F648EE00D745EB /* ImageReducer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageReducer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9EF48F19F648EF00D745EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B9EF49019F648EF00D745EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B9EF49119F648EF00D745EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B9EF49319F648EF00D745EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B9EF49519F648EF00D745EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B9EF49619F648EF00D745EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6B9EF49819F648EF00D745EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B9EF49B19F648EF00D745EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B9EF4A119F648EF00D745EB /* ImageReducerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageReducerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B9EF4A619F648EF00D745EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B9EF4A719F648EF00D745EB /* ImageReducerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageReducerTests.m; sourceTree = "<group>"; };
+		6B9EF4B119F6495D00D745EB /* PNGDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGDropView.h; sourceTree = "<group>"; };
+		6B9EF4B219F6495D00D745EB /* PNGDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGDropView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B9EF48819F648EE00D745EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9EF49E19F648EF00D745EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B9EF48219F648EE00D745EB = {
+			isa = PBXGroup;
+			children = (
+				6B9EF48D19F648EF00D745EB /* ImageReducer */,
+				6B9EF4A419F648EF00D745EB /* ImageReducerTests */,
+				6B9EF48C19F648EE00D745EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B9EF48C19F648EE00D745EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B9EF48B19F648EE00D745EB /* ImageReducer.app */,
+				6B9EF4A119F648EF00D745EB /* ImageReducerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B9EF48D19F648EF00D745EB /* ImageReducer */ = {
+			isa = PBXGroup;
+			children = (
+				6B9EF49019F648EF00D745EB /* AppDelegate.h */,
+				6B9EF49119F648EF00D745EB /* AppDelegate.m */,
+				6B9EF49519F648EF00D745EB /* ViewController.h */,
+				6B9EF49619F648EF00D745EB /* ViewController.m */,
+				6B9EF4B119F6495D00D745EB /* PNGDropView.h */,
+				6B9EF4B219F6495D00D745EB /* PNGDropView.m */,
+				6B9EF49819F648EF00D745EB /* Images.xcassets */,
+				6B9EF49A19F648EF00D745EB /* Main.storyboard */,
+				6B9EF48E19F648EF00D745EB /* Supporting Files */,
+			);
+			path = ImageReducer;
+			sourceTree = "<group>";
+		};
+		6B9EF48E19F648EF00D745EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B9EF48F19F648EF00D745EB /* Info.plist */,
+				6B9EF49319F648EF00D745EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B9EF4A419F648EF00D745EB /* ImageReducerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B9EF4A719F648EF00D745EB /* ImageReducerTests.m */,
+				6B9EF4A519F648EF00D745EB /* Supporting Files */,
+			);
+			path = ImageReducerTests;
+			sourceTree = "<group>";
+		};
+		6B9EF4A519F648EF00D745EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B9EF4A619F648EF00D745EB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B9EF48A19F648EE00D745EB /* ImageReducer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9EF4AB19F648EF00D745EB /* Build configuration list for PBXNativeTarget "ImageReducer" */;
+			buildPhases = (
+				6B9EF48719F648EE00D745EB /* Sources */,
+				6B9EF48819F648EE00D745EB /* Frameworks */,
+				6B9EF48919F648EE00D745EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageReducer;
+			productName = ImageReducer;
+			productReference = 6B9EF48B19F648EE00D745EB /* ImageReducer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B9EF4A019F648EF00D745EB /* ImageReducerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B9EF4AE19F648EF00D745EB /* Build configuration list for PBXNativeTarget "ImageReducerTests" */;
+			buildPhases = (
+				6B9EF49D19F648EF00D745EB /* Sources */,
+				6B9EF49E19F648EF00D745EB /* Frameworks */,
+				6B9EF49F19F648EF00D745EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B9EF4A319F648EF00D745EB /* PBXTargetDependency */,
+			);
+			name = ImageReducerTests;
+			productName = ImageReducerTests;
+			productReference = 6B9EF4A119F648EF00D745EB /* ImageReducerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B9EF48319F648EE00D745EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jonas Gessner";
+				TargetAttributes = {
+					6B9EF48A19F648EE00D745EB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6B9EF4A019F648EF00D745EB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6B9EF48A19F648EE00D745EB;
+					};
+				};
+			};
+			buildConfigurationList = 6B9EF48619F648EE00D745EB /* Build configuration list for PBXProject "ImageReducer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B9EF48219F648EE00D745EB;
+			productRefGroup = 6B9EF48C19F648EE00D745EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B9EF48A19F648EE00D745EB /* ImageReducer */,
+				6B9EF4A019F648EF00D745EB /* ImageReducerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B9EF48919F648EE00D745EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9EF49919F648EF00D745EB /* Images.xcassets in Resources */,
+				6B9EF49C19F648EF00D745EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9EF49F19F648EF00D745EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B9EF48719F648EE00D745EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9EF49719F648EF00D745EB /* ViewController.m in Sources */,
+				6B9EF4B319F6495D00D745EB /* PNGDropView.m in Sources */,
+				6B9EF49419F648EF00D745EB /* main.m in Sources */,
+				6B9EF49219F648EF00D745EB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9EF49D19F648EF00D745EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9EF4A819F648EF00D745EB /* ImageReducerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B9EF4A319F648EF00D745EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B9EF48A19F648EE00D745EB /* ImageReducer */;
+			targetProxy = 6B9EF4A219F648EF00D745EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B9EF49A19F648EF00D745EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B9EF49B19F648EF00D745EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B9EF4A919F648EF00D745EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6B9EF4AA19F648EF00D745EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6B9EF4AC19F648EF00D745EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ImageReducer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B9EF4AD19F648EF00D745EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ImageReducer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B9EF4AF19F648EF00D745EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageReducerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageReducer.app/Contents/MacOS/ImageReducer";
+			};
+			name = Debug;
+		};
+		6B9EF4B019F648EF00D745EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageReducerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageReducer.app/Contents/MacOS/ImageReducer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B9EF48619F648EE00D745EB /* Build configuration list for PBXProject "ImageReducer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9EF4A919F648EF00D745EB /* Debug */,
+				6B9EF4AA19F648EF00D745EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B9EF4AB19F648EF00D745EB /* Build configuration list for PBXNativeTarget "ImageReducer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9EF4AC19F648EF00D745EB /* Debug */,
+				6B9EF4AD19F648EF00D745EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6B9EF4AE19F648EF00D745EB /* Build configuration list for PBXNativeTarget "ImageReducerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B9EF4AF19F648EF00D745EB /* Debug */,
+				6B9EF4B019F648EF00D745EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B9EF48319F648EE00D745EB /* Project object */;
+}
