@@ -10,6 +10,7 @@
 
 @interface ViewController : NSViewController
 
+@property (strong) IBOutlet NSTextFieldCell *creditsTextField;
 
 @end
 

@@ -1,14 +1,14 @@
 //
-//  PNGDropView.m
+//  ImageDropView.m
 //  ImageReducer
 //
 //  Created by Jonas Gessner on 21.10.14.
 //  Copyright (c) 2014 Jonas Gessner. All rights reserved.
 //
 
-#import "PNGDropView.h"
+#import "ImageDropView.h"
 
-@implementation PNGDropView
+@implementation ImageDropView
 
 - (instancetype)initWithCoder:(NSCoder *)coder {
     self = [super initWithCoder:coder];
@@ -66,7 +66,7 @@
                     
                     NSBitmapImageRep *rep = [[NSBitmapImageRep alloc] initWithCGImage:newImg];
                     
-                    NSData *data = [rep representationUsingType:([extension isEqualToString:@"png"] ? NSPNGFileType : NSJPEGFileType) properties:nil];
+                    NSData *data = [rep representationUsingType:([extension isEqualToString:@"png"] ? NSPNGFileType : NSJPEGFileType) properties:@{NSImageCompressionFactor : @(1.0)}];
                     
                     BOOL ok = [data writeToFile:newFilename atomically:YES];
                     

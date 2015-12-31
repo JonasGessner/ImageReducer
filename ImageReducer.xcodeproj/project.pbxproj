@@ -13,7 +13,7 @@
 		6B9EF49919F648EF00D745EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B9EF49819F648EF00D745EB /* Images.xcassets */; };
 		6B9EF49C19F648EF00D745EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B9EF49A19F648EF00D745EB /* Main.storyboard */; };
 		6B9EF4A819F648EF00D745EB /* ImageReducerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF4A719F648EF00D745EB /* ImageReducerTests.m */; };
-		6B9EF4B319F6495D00D745EB /* PNGDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF4B219F6495D00D745EB /* PNGDropView.m */; };
+		6B9EF4B319F6495D00D745EB /* ImageDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9EF4B219F6495D00D745EB /* ImageDropView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 		6B9EF4A119F648EF00D745EB /* ImageReducerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageReducerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B9EF4A619F648EF00D745EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B9EF4A719F648EF00D745EB /* ImageReducerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageReducerTests.m; sourceTree = "<group>"; };
-		6B9EF4B119F6495D00D745EB /* PNGDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGDropView.h; sourceTree = "<group>"; };
-		6B9EF4B219F6495D00D745EB /* PNGDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGDropView.m; sourceTree = "<group>"; };
+		6B9EF4B119F6495D00D745EB /* ImageDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDropView.h; sourceTree = "<group>"; };
+		6B9EF4B219F6495D00D745EB /* ImageDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDropView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				6B9EF49119F648EF00D745EB /* AppDelegate.m */,
 				6B9EF49519F648EF00D745EB /* ViewController.h */,
 				6B9EF49619F648EF00D745EB /* ViewController.m */,
-				6B9EF4B119F6495D00D745EB /* PNGDropView.h */,
-				6B9EF4B219F6495D00D745EB /* PNGDropView.m */,
+				6B9EF4B119F6495D00D745EB /* ImageDropView.h */,
+				6B9EF4B219F6495D00D745EB /* ImageDropView.m */,
 				6B9EF49819F648EF00D745EB /* Images.xcassets */,
 				6B9EF49A19F648EF00D745EB /* Main.storyboard */,
 				6B9EF48E19F648EF00D745EB /* Supporting Files */,
@@ -165,7 +165,7 @@
 		6B9EF48319F648EE00D745EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Jonas Gessner";
 				TargetAttributes = {
 					6B9EF48A19F648EE00D745EB = {
@@ -221,7 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B9EF49719F648EF00D745EB /* ViewController.m in Sources */,
-				6B9EF4B319F6495D00D745EB /* PNGDropView.m in Sources */,
+				6B9EF4B319F6495D00D745EB /* ImageDropView.m in Sources */,
 				6B9EF49419F648EF00D745EB /* main.m in Sources */,
 				6B9EF49219F648EF00D745EB /* AppDelegate.m in Sources */,
 			);
@@ -277,6 +277,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -340,6 +341,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ImageReducer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.j-gessner.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -351,6 +353,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = ImageReducer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.j-gessner.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -370,6 +373,7 @@
 				);
 				INFOPLIST_FILE = ImageReducerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.j-gessner.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageReducer.app/Contents/MacOS/ImageReducer";
 			};
@@ -386,6 +390,7 @@
 				);
 				INFOPLIST_FILE = ImageReducerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.j-gessner.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageReducer.app/Contents/MacOS/ImageReducer";
 			};
@@ -410,6 +415,7 @@
 				6B9EF4AD19F648EF00D745EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B9EF4AE19F648EF00D745EB /* Build configuration list for PBXNativeTarget "ImageReducerTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +424,7 @@
 				6B9EF4B019F648EF00D745EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

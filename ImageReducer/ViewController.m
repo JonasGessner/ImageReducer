@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
-#import "PNGDropView.h"
+#import "ImageDropView.h"
 
 @implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self.creditsTextField setStringValue:[NSString stringWithFormat:@"© 2014-%lu, Jonas Gessner", [[[[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian] components:NSCalendarUnitYear fromDate:[NSDate date]] year]]];
+}
 
 @end

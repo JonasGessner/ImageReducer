@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -668,12 +668,12 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl" customClass="PNGDropView">
+                    <view key="view" id="m2S-Jp-Qdl" customClass="ImageDropView">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bRQ-40-gHe">
-                                <rect key="frame" x="166" y="11" width="149" height="17"/>
+                                <rect key="frame" x="168" y="11" width="146" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="© 2014, Jonas Gessner" id="KDc-k3-831">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -696,6 +696,9 @@
                             <constraint firstAttribute="bottom" secondItem="bRQ-40-gHe" secondAttribute="bottom" constant="11" id="muN-bW-bMI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="creditsTextField" destination="KDc-k3-831" id="JdU-jG-8T0"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,5 +1,5 @@
 //
-//  PNGDropView.h
+//  ImageDropView.h
 //  ImageReducer
 //
 //  Created by Jonas Gessner on 21.10.14.
@@ -8,6 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface PNGDropView : NSView
+@interface ImageDropView : NSView
 
 @end
