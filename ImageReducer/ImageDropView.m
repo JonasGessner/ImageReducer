@@ -81,4 +81,14 @@
     return anyFileValid;
 }
 
+// Workaround for the case when performDragOperation: is not called
+// see http://stackoverflow.com/a/12795637
+- (void)draggingEnded:(id<NSDraggingInfo>)sender
+{
+    if(NSPointInRect([sender draggingLocation],self.frame)){
+        //The file was actually dropped on the view so call the performDrag manually
+        [self performDragOperation:sender];
+    }
+}
+
 @end
